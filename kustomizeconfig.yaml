@@ -1,0 +1,7 @@
+varReference:
+- path: spec/identityProviders/{mappingMethod:claim}/openID/clientID
+  kind: OAuth
+  apiVersion: config.openshift.io/v1
+- path: spec/identityProviders/{mappingMethod:claim}/openID/issuer
+  kind: OAuth
+  apiVersion: config.openshift.io/v1
